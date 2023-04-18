@@ -9,7 +9,7 @@ git clone https://github.com/0xt3j4s/Promise-in-Go.git
 ```
 
 ## Usage
-To run the code, run the following command:
+To run the code, use the following command:
 ```bash
 go run promise.go
 ```
