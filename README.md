@@ -1,6 +1,6 @@
 # Promise-in-Go
 
-- This is a simple implementation for a Go interface of the Promise prototype from JavaScript.
+- This is a simple implementation of the Promise prototype from JavaScript using interfaces in Go.
 
 ## Build
 Firstly, clone the repository using the command:
