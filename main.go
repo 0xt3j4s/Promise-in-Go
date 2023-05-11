@@ -19,7 +19,7 @@ func main() {
 		fmt.Println("Second promise resolved with value: ", v)
 		return 20
 	}).Finally(func() {
-		fmt.Printf("Promise execution finished\n\n")
+		fmt.Printf("Promise 1 execution finished\n\n")
 	})
 
 	p1.Resolve(5)	
@@ -36,7 +36,7 @@ func main() {
 		fmt.Println("Error: ", err)
 		return -1
 	}).Finally(func() {
-		fmt.Printf("Promise execution finished\n\n")
+		fmt.Printf("Promise 2 execution finished\n\n")
 	})
 
 	p2.Resolve(10)
@@ -62,7 +62,7 @@ func main() {
 		fmt.Println("Error: ", err)
 		return ""
 	}).Finally(func() {
-		fmt.Println("Promise execution finished")
+		fmt.Println("Promise 3 execution finished")
 	})
 
 	time.Sleep(1 * time.Second)
